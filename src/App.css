@@ -1,0 +1,93 @@
+body {
+    font-family:'Roboto', sans-serif;
+    text-align: center;
+    background-color: #9d3940;
+}
+
+.sutenGuess {
+    text-align: center;
+    margin: 25px;
+    padding: 10px;
+    width: auto;
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    box-shadow: 5px 5px 50px 1px #000000;
+}
+
+.minMax {
+    display: inline-block;
+}
+
+.rangeContainer {
+    display: inline-block;
+    margin: 2px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+    width: 60px;
+    text-align: center;
+}
+
+input {
+    background-color: #ffffff00;
+    border: none;
+    border-bottom: 0.2em solid #000000;
+    transition: all 0.2s;
+    outline: none;
+    margin: 1em;
+}
+
+input:hover {
+    border: none;
+    border-bottom: 0.2em solid #9d3940;
+    outline: none;
+}
+
+input:focus {
+    border: none;
+    border-bottom: 0.2em solid #9d3940;
+    outline: none;
+}
+
+input[type="text"] {
+    text-align: center;
+    width: 250px;
+}
+
+.displayBox {
+    font-size: 25px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.correct {
+    color: #30a646;
+}
+
+.incorrect {
+    color: #9d3940;
+}
+
+button {
+    border: 0.1em solid #ffffff;
+    color: #000000;
+    text-align: center;
+    border-radius: 0.12em;
+    padding: 0.4em 2em;
+    display: inline-block;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #9d3940;
+    color: #ffffff;
+}
