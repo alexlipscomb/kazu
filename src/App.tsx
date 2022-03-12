@@ -1,11 +1,11 @@
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
 import './App.css';
-import SutenGuess from './SutenGuess';
+import KazuGuess from './KazuGuess';
 
 function render() {
     ReactDOM.render(
-        <SutenGuess />,
+        <KazuGuess />,
         document.getElementById('root'),
     );
 }

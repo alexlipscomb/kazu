@@ -3,9 +3,9 @@ import * as React from 'react';
 import kansuji from 'kansuji-ts';
 import Display from './Display';
 
-type SutenGuessProps = unknown;
+type KazuGuessProps = unknown;
 
-type SutenGuessState = {
+type KazuGuessState = {
     numGuesses: number,
     totalGuesses: number,
     numCorrect: number,
@@ -17,8 +17,8 @@ type SutenGuessState = {
     status: 'question' | 'answer' | 'correct' | 'incorrect'
 }
 
-export default class SutenGuess extends React.Component<SutenGuessProps, SutenGuessState> {
-    constructor(props: SutenGuessProps) {
+export default class KazuGuess extends React.Component<KazuGuessProps, KazuGuessState> {
+    constructor(props: KazuGuessProps) {
         super(props);
         this.state = {
             numGuesses: 0,
@@ -124,7 +124,7 @@ export default class SutenGuess extends React.Component<SutenGuessProps, SutenGu
         const { totalGuesses, numCorrect, answer, status, mode, guess, min, max } = this.state;
 
         return (
-            <div className="sutenGuess">
+            <div className="kazuGuess">
                 <div className="minMax">
                     <div className="rangeContainer">
                         <div>Min</div>
